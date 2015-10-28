@@ -1,0 +1,25 @@
+
+/* 
+
+    Inapp Pruchase Product JSON format
+    
+    Prepare By      : Vishal Jadhav
+    Version         : V 0.0.1
+    
+    Example:
+    
+    {
+    
+        id      : 'uk.co.pocketapp.appnameProd1',   // product id used in apple store | play store
+        os      : '', // os can be empty if the same product should be shown in both ios & android if product need to be shown only in ios put "ios" or "android"
+        desc    : ''  // description of the product for more details about the product
+        image   : ''  // optional field if you have specific image for every product keep path of the image eg. "img/product1.png"
+        
+    }
+    
+*/
+
+
+var inapp_products = {
+	{id: 'uk.co.pocketapp.appnameProd1', os: '', desc: '', image: ''}
+}
